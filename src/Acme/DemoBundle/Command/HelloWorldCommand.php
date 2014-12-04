@@ -43,6 +43,6 @@ EOF
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $output->writeln(sprintf('Hello <comment>%s</comment>!', $input->getArgument('who')));
+        $output->writeln(sprintf('Hello <comment>%s</comment>!', $input->getArgument('who am I?')));
     }
 }
